@@ -6,7 +6,7 @@ Universidade Federal do Maranhão
 
 ## Objetivo 
 
-O objetivo deste laboratório é explorar algumas vulnerabilidade em redes de computadores, especialmente em protocolos que não possuem nenhuma criptografia a exemplo do telnet, que é um protocolo usado para acesso remoto a hosts, mas como mencionando não possui nenhuma criptografia, o que pode ocasionar uma grave falha de segurança.
+O objetivo deste laboratório é explorar algumas vulnerabilidades em redes de computadores, especialmente em protocolos que não possuem nenhuma criptografia a exemplo do telnet, que é um protocolo usado para acesso remoto a hosts, mas como mencionando não possui nenhuma criptografia, o que pode ocasionar uma grave falha de segurança.
 
 ![Topologia de Rede][1]
 
@@ -39,14 +39,14 @@ Repare como o *tcpdump* permite exibir a comunicação caracter por caracter em 
 O comando *tcpdump* é um *sniffer* simples, que não possui interface gráfica ao contrário da ferramenta *Wireshark*.
 
 
-5.  Conclusão: como podemos observar, o telnet expõe todo o conteúdo da comunicação;
-é extremamente inseguro e nunca deve ser usado em canais de comunicação inseguros, como por exemplo acesso a dispositivos fora da rede interna.
+5.  Conclusão: como podemos observar, o telnet expõe todo o conteúdo da comunicação, essa prática
+é extremamente insegura e nunca deve ser usado em canais de comunicação inseguros, como por exemplo acesso a dispositivos fora da rede interna por meio da internet.
 A alternativa segura recomendada é o *ssh* *secure shell*.
 
 
 ## Referências
 
-- *Kathará*, [https://github.com/KatharaFramework/Kathara/wiki][3]
+- *Kathará*, [https://github.com/KatharaFramework/Kathara/wiki]
 
   [1]: media/image.png
 
